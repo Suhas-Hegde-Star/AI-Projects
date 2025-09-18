@@ -20,6 +20,10 @@ def asker_math(want, exe):
         m1.exponentation
     elif want.lower() == "cube":
         m1.cube
+    elif want.lower() == "home":
+        H()
+    elif want.lower() == "cube":
+        sys.exit
     elif want.lower() == "help":
         exe = input("1. Addition\n2. Subtraction\n3. MUltiplication\n4. Division\n5. Square\n6. Root\n7. Exponentation 8. Cube\n 9.Home\n20. Exit")
         if exe .lower() == "1":

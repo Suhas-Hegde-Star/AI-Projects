@@ -7,6 +7,10 @@ class Asker_TheWholeOfMyAIProjectIsInHere():
         wanted = input("Enter the topic you want")
         if wanted.lower() == "math":
             ask_math.asker_math
+        elif want.lower() == "home":
+            H()
+        elif want.lower() == "cube":
+            sys.exit
         elif wanted.lower() == "help":
             exe = input("1. Math\n2. Home\n3.Exit")
             if exe == "1":
