@@ -31,3 +31,14 @@ def div(n1, n2):
     n1 = float(input("Enter the first number "))
     n2 = float(input("Enter the second number "))
     print( n1, "divided by", n2, "is", n1 / n2)
+
+def cube(num, cu):
+    num = int(input("Enter the number "))
+    cu = num ** 3
+    print("The cube of", num, "is", cu)
+
+def exponentation(num, ra, ans):
+    num = int(input("Enter the base "))
+    ra = int(input("Enter the exponent "))
+    ans = num ** ra
+    print("The number", num, "raised to", ra, "is", ans)
