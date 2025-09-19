@@ -1,3 +1,3 @@
-from Inputs import ask_______
+import ask_______
 
 ask_______.Asker_TheWholeOfMyAIProjectIsInHere()

@@ -1,9 +1,9 @@
-from Functions import maths as m1
-from ask_______ import Asker_TheWholeOfMyAIProjectIsInHere as H
+import maths as m1
+import ask_______
 import sys
 
 def asker_math(want, exe):
-    want = input("Enter what you want in Maths (Basic Words)")
+    want = input("Enter what you want in Maths (Basic Words) ")
     if want .lower() == "addition":
         m1.add
     elif want .lower() == "subtraction":
@@ -21,7 +21,7 @@ def asker_math(want, exe):
     elif want.lower() == "cube":
         m1.cube
     elif want.lower() == "home":
-        H()
+        ask_______.Asker_TheWholeOfMyAIProjectIsInHere()
     elif want.lower() == "cube":
         sys.exit
     elif want.lower() == "help":
@@ -49,7 +49,7 @@ def asker_math(want, exe):
         elif exe.lower() == "11":
             m1.fibonacci
         elif exe.lower() == "999":
-            H()
+            ask_______.Asker_TheWholeOfMyAIProjectIsInHere()
         elif exe.lower() == "9999":
             sys.exit
         else:

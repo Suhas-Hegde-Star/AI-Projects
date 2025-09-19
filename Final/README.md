@@ -2,9 +2,28 @@
 This is a program whre I am going to create an AI. Tis is going to have many applications(basically topics) to choose from.
 # Features
 ## Math
-This Feature has basic arithmatic operations such as addition, subtraction, multiplication and division. It also has Square and Square Root. Now You can Also find cube of number ans find any exponention. You have to type exactly like how it is here. Then only it will work.
+### Addition
+You can Do addition by giving 2 numbers.
+### Subtraction
+You can Do Subtraction by giving 2 numbers.
+### Multiplication
+You can Do Multiplication by giving 2 numbers.
+### Division
+You can Do division by giving 2 numbers.
+### Square
+You can Square a number. This is also like finding the area of a square, the number being the length of side.
+### Cube
+You can Cube a number. This is also like finding the volume of a cube, the number being the length of side.
+### Square Root
+You can find the Square root of a number.
+### Exponentation
+You can find the Square root of a number.
+### Area of Rectangle
+You can find area of a rectangle by giving its length and breadth.
+### Area of Triangle
+You can find area of a triangle by giving its height and base.
 ## Meaning
-You can ask a basic word and it will give you its meaning.
+You can ask a basic word or a little comlex word and it will give you its meaning.
 # Special Feature
 This program has speacial features like :
 ## Help
