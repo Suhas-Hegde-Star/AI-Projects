@@ -42,3 +42,27 @@ def exponentation(num, ra, ans):
     ra = int(input("Enter the exponent "))
     ans = num ** ra
     print("The number", num, "raised to", ra, "is", ans)
+
+def rect(length, breadth, area):
+    length = float(input("Enter the Length of the Rectangle "))
+    breadth = float(input("Enter the Breadth of the Rectangle "))
+    area = length * breadth
+    print("The area of the square with", length, "length", "and", breadth, "breadth is", area)
+
+def tri(o, t, th, waa, area, s):
+    while True:
+        waa = input("Is the tiangle equlateral(Type y or n) ")
+        if waa.lower() == "y":
+            o = float(input("Enter the length of the side "))
+            s = (o + o + o) / 2
+            area = math.sqrt(s * (s - o) * (s - o) * (s - o))
+            print("The area of the triangle is:", area)
+        elif waa.lower() == "n":
+            o = float(input("Enter the length of side a: "))
+            t = float(input("Enter the length of side b: "))
+            th = float(input("Enter the length of side c: "))
+            s = (o + t + th) / 2
+            area = math.sqrt(s * (s - o) * (s - t) * (s - th))
+            print("The area of the triangle is:", area)
+        else:
+            print("Invalid Input. Try again ")
