@@ -25,7 +25,7 @@ def asker_math(want, exe):
     elif want.lower() == "cube":
         sys.exit
     elif want.lower() == "help":
-        exe = input("1. Addition\n2. Subtraction\n3. MUltiplication\n4. Division\n5. Square\n6. Root\n7. Exponentation 8. Cube\n 9.Home\n20. Exit")
+        exe = input("1. Addition\n2. Subtraction\n3. MUltiplication\n4. Division\n5. Square\n6. Root\n7. Exponentation 8. Cube\n9. Area of Triangle\n10. Area of Rectangle\n11. Fibonacci numbers\n999.Home\n9999. Exit")
         if exe .lower() == "1":
             m1.add
         elif exe .lower() == "2":
@@ -36,15 +36,21 @@ def asker_math(want, exe):
             m1.div
         elif exe .lower() == "5":
             m1.square
-        elif exe .lower() == "6" or want .lower() == "square root":
+        elif exe .lower() == "6":
             m1.root
         elif exe.lower() == "7":
             m1.exponentation
         elif exe.lower() == "8":
             m1.cube
         elif exe.lower() == "9":
-            H()
+            m1.rect
         elif exe.lower() == "10":
+            m1.tri
+        elif exe.lower() == "11":
+            m1.fibonacci
+        elif exe.lower() == "999":
+            H()
+        elif exe.lower() == "9999":
             sys.exit
         else:
             print("Invalid Input")

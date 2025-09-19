@@ -66,3 +66,12 @@ def tri(o, t, th, waa, area, s):
             print("The area of the triangle is:", area)
         else:
             print("Invalid Input. Try again ")
+
+def fibonacci(n):
+    n = int(input("Till Which fibonacci number do you want? "))
+    a, b = 0, 1
+    fib_sequence = []
+    for _ in range(n):
+        fib_sequence.append(a)
+        a, b = b, a + b
+    print(fib_sequence)
